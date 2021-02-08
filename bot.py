@@ -101,9 +101,10 @@ async def hmm(event):
         f"""<b>{Config.ACCOUNT_GEN_NAME} Account Generated.
 
 Email : <code>{email}</code>
-Password :<code>{password}</code> 
+Password :<code>{password}</code>
+Capture :<code>{capture}</code>
 
-📸 After Login Send Screenshot To @UNIQBOTS
+📸 After Login Send Screenshot To {Config.SS_BOT}
 
 You Can Check Your Limit or Info By /about 
 
