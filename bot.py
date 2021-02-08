@@ -94,6 +94,7 @@ async def hmm(event):
     sed = random.choice(stark_dict)
     user_s = await warnerstarkbot.get_me()
     username = user_s.username
+    replied_user = await warnerstarkbot(GetFullUserRequest(event.sender_id))
     firstname = replied_user.user.first_name
     email, password = sed.split(":")
     await hmmw.edit(
