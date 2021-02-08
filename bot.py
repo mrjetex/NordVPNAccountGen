@@ -106,7 +106,7 @@ Email : <code>{email}</code>
 Password :<code>{password}</code>
 Capture :<code>{capture}</code>
 
-📸 After Login Send Screenshot To {Config.SS_BOT}
+📸 After Login Send Screenshot To @UNIQBOTS
 
 You Can Check Your Limit or Info By /about 
 
