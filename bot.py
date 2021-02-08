@@ -42,13 +42,12 @@ async def hmm(event):
         	await event.reply("**I am Sorry To Say That, To Access Me You Have To Be The Member Of Our Channel To Use This Bot..!**", buttons=[[custom.Button.url("Join Channel", Config.CHANNEL_URL)]])
         	return
     st = await event.client(GetFullUserRequest(event.sender_id))
-    user_text = f"""**Hello {st.user.first_name},
-Welcome To {Config.ACCOUNT_GEN_NAME} Account Generator Bot
+    user_text = f"""**Hey {st.user.first_name} , Welcome to this bot 
 
-To Know About commands type:
-/cmds
+I am {Config.ACCOUNT_GEN_NAME} Generator Bot. 
+Type /cmds to know the available the Commands! 
 
-Bot Made With ❤️ By @UNIQBOTS**
+♥ I'm Made By @UNIQBOTS**
 """ 
     await event.reply(user_text) 
     
