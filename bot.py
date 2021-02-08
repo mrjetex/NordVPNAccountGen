@@ -97,14 +97,11 @@ async def hmm(event):
     replied_user = await warnerstarkbot(GetFullUserRequest(event.sender_id))
     firstname = replied_user.user.first_name
     email, password = sed.split(":")
-    captur = sed.split("|")
-    capture = captur[3]
     await hmmw.edit(
         f"""<b>{Config.ACCOUNT_GEN_NAME} Account Generated.
 
 Email : <code>{email}</code>
 Password :<code>{password}</code>
-Capture :<code>{capture}</code>
 
 📸 After Login Send Screenshot To @UNIQBOTS
 
