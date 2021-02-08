@@ -19,19 +19,19 @@
     },
     "BOT_TOKEN": {
       "description": "Your Bot Token.",
-      "value": ""
+      "value": "1665947087:AAFe0UgiZEZq5fZ6ZkmbSg9muAIQ3wXHXYE"
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "1248019"
     },
     "OWNER_ID": {
       "description": "Bot Owner ID",
-      "value": ""
+      "value": "1488612639"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "dc8f87c2d1126bb2ac4ed258a4941e05"
     }
   },
   "buildpacks": [
