@@ -13,5 +13,5 @@ class Config(object):
     DUMB_CHAT = int(os.environ.get("DUMB_CHAT", False))
     OWNER_ID = int(os.environ.get("OWNER_ID", None))
     GEN_LIMIT_PERDAY = int(os.environ.get("GEN_LIMIT_PERDAY", 2))
-    SS_BOT = int(os.environ.get("SS_BOT", @UNIQBOTS))
+   
 
