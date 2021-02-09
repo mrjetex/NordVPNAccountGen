@@ -120,11 +120,7 @@ async def reset(event):
         print("A Non Owner Used This Cmd")
         return
     ok = warner.get_all_users()
-    for s in ok:
-        try:
-           users = len(int(s))
-        except:
-            pass
+    users = len.ok
     await event.reply(f"**I have {users} Users In Database.**")
     
 @warnerstarkbot.on(events.NewMessage(pattern="^/reset$"))
