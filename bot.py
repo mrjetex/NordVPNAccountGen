@@ -119,8 +119,8 @@ async def reset(event):
     if event.sender_id != Config.OWNER_ID:
         print("A Non Owner Used This Cmd")
         return
-    ok = warner.get_all_users()
-    users = len.(ok)
+    usercount = warner.get_all_users()
+    users = len(usercount)
     await event.reply(f"**I have {users} Users In Database.**")
     
 @warnerstarkbot.on(events.NewMessage(pattern="^/reset$"))
