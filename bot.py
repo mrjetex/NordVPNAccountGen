@@ -116,6 +116,19 @@ Test: {users}
 
 Bot Made With ❤️ By @UNIQBOTS</b>""",
         parse_mode="HTML")
+# Statises
+@warnerstarkbot.on(events.NewMessage(pattern="^/reset$"))
+async def reset(event):
+    if event.sender_id != Config.OWNER_ID:
+        print("A Non Owner Used This Cmd")
+        return
+    ok = warner.get_all_users()
+    for s in ok:
+        try:
+           users = len(int(s))
+        except:
+            pass
+    await event.reply("I have {users} Users In Database.")
     
 @warnerstarkbot.on(events.NewMessage(pattern="^/reset$"))
 async def reset(event):
