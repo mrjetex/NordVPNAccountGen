@@ -98,7 +98,7 @@ async def hmm(event):
     firstname = replied_user.user.first_name
     email, password = sed.split(":")
     # More
-    usercount = warner.get_all_users()
+    usercount = warner.is_user_in_db()
     await hmmw.edit(
         f"""<b>{Config.ACCOUNT_GEN_NAME} Account Generated.
 
